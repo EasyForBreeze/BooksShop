@@ -5,7 +5,10 @@ using System.Text;
 
 
 var result = new Dictionary<string, string?>(StringComparer.OrdinalIgnoreCase);
-IBookRepository bookRepository = new BookRepository();
+BookStoreContext bookStoreContext = new BookStoreContext();
+bookStoreContext.Database.EnsureCreated();
+IEntityAdapter _adapter = new EntityAdapter(bookStoreContext);
+IBookRepository bookRepository = new BookRepository(_adapter);
 string? date = null;
 string? orderBy = null;
 string? tittle = null;

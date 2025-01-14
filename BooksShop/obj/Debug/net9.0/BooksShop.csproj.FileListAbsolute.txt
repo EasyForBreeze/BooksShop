@@ -142,3 +142,4 @@ C:\Users\bream\source\repos\BooksShop\BooksShop\obj\Debug\net9.0\refint\BooksSho
 C:\Users\bream\source\repos\BooksShop\BooksShop\obj\Debug\net9.0\BooksShop.pdb
 C:\Users\bream\source\repos\BooksShop\BooksShop\obj\Debug\net9.0\BooksShop.genruntimeconfig.cache
 C:\Users\bream\source\repos\BooksShop\BooksShop\obj\Debug\net9.0\ref\BooksShop.dll
+C:\Users\bream\source\repos\BooksShop\BooksShop\bin\Debug\net9.0\System.Text.Json.dll

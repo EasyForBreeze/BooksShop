@@ -11,11 +11,9 @@ namespace BooksShop.DbContext
     {
         private readonly IEntityAdapter _adapter;
         private PropertyInfo[] properties;
-        public BookRepository()
+        public BookRepository(IEntityAdapter adapter)
         {
-            BookStoreContext bookStoreContext = new BookStoreContext();
-            bookStoreContext.Database.EnsureCreated();
-            _adapter = new EntityAdapter(bookStoreContext);
+            _adapter = adapter;
             properties = typeof(Book).GetProperties(BindingFlags.Public | BindingFlags.Instance);
         }
 
