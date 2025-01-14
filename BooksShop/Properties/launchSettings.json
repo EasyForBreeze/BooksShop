@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "BooksShop": {
+      "commandName": "Project",
+      "commandLineArgs": "restock"
+    }
+  }
+}

@@ -1,0 +1,4 @@
+C:\Users\bream\source\repos\BooksShop\BooksShop\bin\Release\net9.0\linux-x64\publish\BooksShop.pdb
+C:\Users\bream\source\repos\BooksShop\BooksShop\bin\Release\net9.0\linux-x64\publish\appsettings.json
+C:\Users\bream\source\repos\BooksShop\BooksShop\bin\Release\net9.0\linux-x64\publish\libe_sqlite3.so
+C:\Users\bream\source\repos\BooksShop\BooksShop\bin\Release\net9.0\linux-x64\publish\BooksShop
